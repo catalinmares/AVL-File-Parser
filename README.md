@@ -1,4 +1,4 @@
-# AVL-File-Parser
+# AVL File Parser
 
 The program I wrote is composed, beside the functions given in the header file,
 of other auxiliar functions that I wrote to help me implement the problem given.
