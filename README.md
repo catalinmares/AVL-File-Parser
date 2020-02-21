@@ -8,6 +8,7 @@ the way I thought while writing this program.
 
 
 **TASK 1**
+
 Beside the specific functions of an AVL tree (minimum, maximum, successor,
 predecessor, search) which are explained in the comments of the source file, I
 will explain the most important details of implementation of the functions
@@ -42,6 +43,7 @@ element and update the links in the list and start rebalancing from the parent.
 
 
 **TASK 2**
+
 In the implementation of this task, I use the function fgets to read the text
 from the file and I extract the words using strtok. After each extraction, I
 update the index for the next word and I insert the current word with its
@@ -52,6 +54,7 @@ traversal of the tree, the words inserted will be printed alphabetically.
 
 
 **TASK 3**
+
 In the implementation of this task, I make use of the inorder list of the tree
 to extract the indexes of the words starting with the characters given by the
 key. For this, I copy as many characters as they key has from the element of
@@ -62,6 +65,7 @@ I realloc it with double capacity.
 
 
 **TASK 4**
+
 Very similar to the previous task, except the fact that here I need to copy as
 many characters as each key has (starting key, ending key) in 2 separated
 strings which I compare with the keys. As long as strcmp returns a positive
