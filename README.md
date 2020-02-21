@@ -6,14 +6,14 @@ In the following file I will explain the implementantion of every function and
 the way I thought while writing this program.
 
 
-TASK 1
+**TASK 1**
 
 Beside the specific functions of an AVL tree (minimum, maximum, successor,
 predecessor, search) which are explained in the comments of the source file, I
 will explain the most important details of implementation of the functions
 insert and delete.
 
-The function insert treats 3 cases:
+The function insert treats *3 cases*:
 1. The tree is empty -> In this case we insert the new element into the root.
 2. The tree already contains the inserted element -> In this case we insert the
 node in the list after the last duplicate. More details of implementation can
@@ -24,7 +24,7 @@ find the position for the new element. After insertion, we link the new
 element to its successor and its predecessor in the list and start rebalancing
 the tree from the new node inserted.
 
-The function delete treats 4 cases:
+The function delete treats *4 cases*:
 1. The element has duplicates -> In this case we delete the last duplicate from
 the list of duplicates. After deletion we update the end pointer for each
 duplicate.
@@ -38,7 +38,7 @@ link the one child of the node to its parent and viceversa and we delete the
 element and update the links in the list and start rebalancing from the parent.
 
 
-TASK 2
+**TASK 2**
 
 In the implementation of this task, I use the function fgets to read the text
 from the file and I extract the words using strtok. After each extraction, I
@@ -48,7 +48,7 @@ with their index of appearence into the text file. This way, at an inorder
 traversal of the tree, the words inserted will be printed alphabetically.
 
 
-TASK 3
+**TASK 3**
 
 In the implementation of this task, I make use of the inorder list of the tree
 to extract the indexes of the words starting with the characters given by the
@@ -58,7 +58,7 @@ save the index into the range array of indexes. If the index array gets full,
 I realloc it with double capacity.
 
 
-TASK 4
+**TASK 4**
 
 Very similar to the previous task, except the fact that here I need to copy as
 many characters as each key has (starting key, ending key) in 2 separated
