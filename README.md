@@ -8,7 +8,7 @@ In the following file I will explain the implementantion of every function and
 
 the way I thought while writing this program.
 
-\\--------------------------------- TASK 1 ----------------------------------//
+\\\--------------------------------- TASK 1 ----------------------------------//
 
 
 Beside the specific functions of an AVL tree (minimum, maximum, successor,
@@ -65,7 +65,7 @@ in the list and start rebalancing from the parent.
 
 
 
-\\--------------------------------- TASK 2 ----------------------------------//
+\\\--------------------------------- TASK 2 ----------------------------------//
 
 
 In the implementation of this task, I use the function fgets to read the text
@@ -82,7 +82,7 @@ traversal of the tree, the words inserted will be printed alphabetically.
 
 
 
-\\--------------------------------- TASK 3 ----------------------------------//
+\\\--------------------------------- TASK 3 ----------------------------------//
 
 
 In the implementation of this task, I make use of the inorder list of the tree
@@ -98,7 +98,7 @@ save the index into the range array of indexes. If the index array gets full,
 I realloc it with double capacity.
 
 
-\\--------------------------------- TASK 4 ----------------------------------//
+\\\--------------------------------- TASK 4 ----------------------------------//
 
 
 Very similar to the previous task, except the fact that here I need to copy as
